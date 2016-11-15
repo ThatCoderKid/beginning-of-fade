@@ -1,3 +1,18 @@
+/**************
+MAIN STYLE
+***************/
+
 body {
   background-color: #1d1d1d;
+  background-image:  url("http://cdn.wallpapersafari.com/69/0/VgFmN9.jpg");
+  background-size: cover;
+}
+
+/**************
+HEADING
+***************/
+
+h1.main-heading {
+    font-family: 'Ranga', cursive;
+    color: #fff;
 }
