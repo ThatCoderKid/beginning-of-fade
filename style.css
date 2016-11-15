@@ -1,11 +1,18 @@
 /**************
 MAIN STYLE
 ***************/
-
 body {
-  background-color: #1d1d1d;
+margin: 0;
+}
+
+header {
   background-image:  url("http://cdn.wallpapersafari.com/69/0/VgFmN9.jpg");
   background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /**************
@@ -15,4 +22,29 @@ HEADING
 h1.main-heading {
     font-family: 'Ranga', cursive;
     color: #fff;
+    font-size: 4rem;
+    padding: .5rem 3rem;
+    background-color: #252424;
+    border-radius: 5px;
+}
+
+button.starter-button {
+    padding: .5rem 3rem;
+    color: #fff;
+    background-color: #252424;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Ranga', cursive;
+    font-size: 2rem;
+}
+
+button.starter-button:hover, button.starter-button:focus {
+  box-shadow: 1px 2px 3px;
+  color: #54768e;
+  outline: none;
+}
+
+p {
+    max-width: 600px;
+    margin: 20px auto 20px;
 }
