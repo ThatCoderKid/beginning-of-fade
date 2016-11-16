@@ -15,6 +15,12 @@ header {
   align-items: center;
 }
 
+i.fa.fa-arrow-down {
+    padding: 1rem;
+    background-color: #252424;
+    border-radius: 100%;
+}
+
 /**************
 HEADING
 ***************/
@@ -28,6 +34,11 @@ h1.main-heading {
     border-radius: 5px;
 }
 
+ .home-link h1.main-heading:hover {
+    box-shadow: 1px 2px 3px;
+    color: #54768e;
+  }
+
 button.starter-button {
     padding: .5rem 3rem;
     color: #fff;
@@ -36,12 +47,6 @@ button.starter-button {
     border-radius: 5px;
     font-family: 'Ranga', cursive;
     font-size: 2rem;
-}
-
-button.starter-button:hover, button.starter-button:focus {
-  box-shadow: 1px 2px 3px;
-  color: #54768e;
-  outline: none;
 }
 
 /**************
@@ -85,6 +90,14 @@ ul.nav li a:hover {
 
 .arrow-down:hover {
 color: #54768e;
+}
+
+a.home-link {
+    text-decoration: none;
+}
+
+a.home-link:hover {
+
 }
 /**************
 MAIN
