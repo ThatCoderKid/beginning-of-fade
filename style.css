@@ -50,7 +50,7 @@ NAV
 
 ul.nav {
     list-style: none;
-    max-width: 600px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 0;
 }
@@ -101,7 +101,7 @@ MAIN
 }
 
 .strip-wrap {
-    max-width: 600px;
+    max-width: 960px;
     margin: 0 auto;
     text-align: center;
 }
@@ -122,7 +122,7 @@ MAIN
 }
 
 p {
-    max-width: 600px;
+    max-width: 960px;
     margin: 1em auto 20px;
 }
 
@@ -140,7 +140,7 @@ ul.social-links li a:hover {
 }
 
 ul.social-links {
-    max-width: 600px;
+    max-width: 960px;
     margin: 0 auto;
     list-style: none;
 }
