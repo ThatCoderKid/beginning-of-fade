@@ -119,6 +119,7 @@ MAIN
 
 .main {
     padding: 3em 0;
+    background-color: #f7f7f7;
 }
 
 p {
@@ -143,6 +144,7 @@ ul.social-links {
     max-width: 960px;
     margin: 0 auto;
     list-style: none;
+    padding: 0;
 }
 
 ul.social-links .fa {
