@@ -167,6 +167,10 @@ p {
 /**************
 FOOTER
 ***************/
+.audiowrap {
+    display: none;
+}
+
 ul.social-links li a {
   color: #fff;
   font-family: 'Ranga', cursive;
