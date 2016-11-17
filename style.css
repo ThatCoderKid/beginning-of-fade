@@ -15,6 +15,17 @@ header {
   align-items: center;
 }
 
+
+header.contact-header, header.about-header {
+    height: 50vh;
+}
+
+header.contact-header i.fa.fa-arrow-down, header.about-header i.fa.fa-arrow-down {
+    display: none;
+}
+
+
+
 i.fa.fa-arrow-down {
     padding: 1rem;
     background-color: #252424;
@@ -102,6 +113,19 @@ a.home-link:hover {
 /**************
 MAIN
 ***************/
+img.cloaked {
+    width: 21rem;
+    border-radius: 100%;
+    -webkit-box-shadow: 0px 0px 31px 16px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 31px 16px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 31px 16px rgba(0,0,0,0.75);
+}
+
+.cloak-wrap {
+   max-width: 960px;
+   margin: 3em auto;
+   text-align: center;
+}
 
 .homepage-strip {
     background-image: url("http://cdn.pcwallart.com/images/dark-forest-moon-wallpaper-2.jpg");
